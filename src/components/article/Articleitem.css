@@ -1,0 +1,29 @@
+.card{
+    border: none !important;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+   scale: 1.03;
+}
+.card-text{
+    text-align: justify;
+    color: #5d5c5c;
+    font-family: "yekan";
+}
+.read-more span{
+    margin-left: 5px;
+}
+.read-more:hover{
+    cursor: pointer;
+    color: #f54980;
+}
+.card-footer{
+    color: #666 !important;
+    font-family: "yekan";
+}
+.card a{
+    text-decoration: none ;
+    color: #484848;
+}
